@@ -1,0 +1,33 @@
+/************************************************************************
+*                                                                       *
+* Project: ISERotsenViewer                                              *
+*                                                                       *
+* Copyright (c) ISE/TUKL. All rights reserved.                          *
+*                                                                       *                                                                       *
+* Author: Li Li                                                         *
+* E-mail: lili@eit.uni-kl.de                                            *
+* Date: 23.02.2012                                                      *
+*                                                                       *
+* Project Changelog:                                                    *
+* 23/02/2012  LL  Creation of the project, source code upload           *
+*                                                                       *
+************************************************************************/
+
+=============================
+OVERVIEW  
+.............................
+This module provides sample code used to demonstrate the signal processing of 
+rotation sensor (based on potential meter) in gaming wheel. The voltage output 
+of rotation sensor will be digitized through AD-conversion and transmitted
+to the application. Afterwards the sensor data will be displayed on the screen.
+When sample is executed you should be able to see the following:
+- real-time digital read out of rotation sensor data
+- plot of sensor output
+
+=============================
+FILES   
+.............................
+- DrawDevice.cpp: implementation of DrawDevice helper class used to manage Direct3D device
+- DrawDevice.h: declaration of DrawDevice helper class
+
+
